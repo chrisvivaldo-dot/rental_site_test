@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     background-color: rgba(169, 169, 169, 0.582);
     margin: 0px;
+    justify-content: space-evenly;
 }
 
 ul{
@@ -19,21 +20,45 @@ a{
     display: flex;
     background-color: #ab29d6;
     color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
-    display: block;
+    display: flex;
+    flex-shrink: 0;
 }
 
-.links{
+ul{
     display: flex;
-    flex-direction: row;
+    justify-self: end;
+}
+
+li{
+    padding-right: 7px;
+}
+
+.description{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.products{
+    display: flex;
+}
+
+img{
+    width: 100px;
+    height: auto;
 }
 
 .footer{
-    display: block;
+    display:flex;
     color: white;
     background-color: rgba(32, 35, 37, 0.603);    
     justify-content: center;
-    align-items: center;
+    margin-top: auto;
 }
